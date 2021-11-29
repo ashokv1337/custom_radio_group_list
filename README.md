@@ -12,9 +12,9 @@ Flutter package to create list of radio button, by providing a list of objects i
 5. Scroll direction can be set to horizontal as well as vertical
 6. TextSize and TextColor can be customized
 
-![A Sample image to display list of radio button](../assets/asset1.png)
+![A Sample image to display list of radio button](/assets/asset1.png)
 
-![A sample image to display value of selected object.](../assets/asset2.png)
+![A sample image to display value of selected object.](/assets/asset2.png)
 
 
 
