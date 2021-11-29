@@ -1,7 +1,7 @@
 name: custom_radio_group_list
 description: Flutter package to create list of radio button, by providing a list of objects it can be a String list or list of Map..
 version: 1.0.0
-homepage:
+homepage: https://github.com/ashokv1337/custom_radio_group_list
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
