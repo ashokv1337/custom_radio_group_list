@@ -12,6 +12,11 @@ Flutter package to create list of radio button, by providing a list of objects i
 5. Scroll direction can be set to horizontal as well as vertical
 6. TextSize and TextColor can be customized
 
+![A Sample image to display list of radio button](../assets/asset1.png)
+
+![A sample image to display value of selected object.](../assets/asset2.png)
+
+
 
 ## Getting started
 
@@ -50,31 +55,13 @@ This example shows use of Map object list to display radio group list.
                     print('Value : ${value}');
                     } )
 
-Create Object like this 
+## Sample 
 
-class SampleData {
-  String id;
-  String data;
+Please clone repository from 
 
-  SampleData({required this.id, required this.data});
+https://github.com/ashokv1337/custom_radio_group_list
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = id;
-    data['data'] = this.data;
-    return data;
-  }
-
-  @override
-  String toString() {
-    return toJson().toString();
-  }
-}
-
-In the above example we passed 'data' as parameter whose value needs to be displayed as text 
-in radio group.
-
-Please note that this parameter should be of type String.
+Go to example folder and see the sample implementation.
 
 
 ## Additional information
